@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 50vh;
+    background-image: linear-gradient(to right, hsl(103, 56%, 40%), #0ece9e);
+
+}
+.arr-section{
+    display: grid;
+    position: relative;
+    top: 40%;
+}
+.input{
+    display: flex;
+}
+.buttons{
+    position: relative;
+    height: 5vh;
+    top: 50%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 100%;
+    gap: 50px;
+
+    
+}
+ul{
+    list-style-type: decimal;
+    height:40vh;
+    margin-left: 5%;
+    margin-top: 10%;
+    background-color: #fff8f8;
+    width: 100%;
+    border-radius: 20px;
+    padding: 10%;
+}
+li{
+   font-size: 20px;
+   text-align: center;
+   margin-top: 3%;
+   
+}
+input{
+width: 300%;
+font-size: 20px;
+border: none;
+border-radius: 20px;
+padding: 5%;
+}
+button{
+    width: 200%;
+    height: 7vh;
+    border-radius: 50px;
+    border: none;
+    font-size: 20px;
+    
+    
+}
+#push{
+    background-color: #06e25a;
+}
+#shift{
+    background-color: #e25e06;
+}
+#pop{
+    background-color: #ff0101;
+}
+#unshift{
+    background-color: #00ff73;
+}
+#addItem{
+    width:100%;
+    height: 10vh;
+    background-color: #05fd6c;
+}
+button:hover{
+  
+   color: #fff8f8;
+}
+h1{
+    color: #686363;
+    left: 36%;
+    top: 26%;
+    position: absolute;
+    font-size: 20PX;
+
+}
+.input{
+    width: 140%;
+}
+#remove{
+    width: 70%;
+    background-color: red;
+}
